@@ -25,7 +25,7 @@ function Navbar() {
 					padding: '20px 8px', // Ajouter du padding en x et en y
 					'&:hover': {
 						background: to === selectedLink ? 'transparent' : 'rgba(240, 240, 240, 0.8)', // Gris clair avec transparence au survol
-						'& .MuiTypography-root': {
+						'& .MuiTypography': {
 							color: 'black', // Texte noir au survol
 						},
 					},
@@ -36,7 +36,7 @@ function Navbar() {
 
 	return (
 		<Toolbar style={{ display: 'flex', justifyContent: 'space-between' }}>
-			{/* Les puces de navigation */}
+			{/* Les liens de navigation */}
 			{createNavLink('Logements', '/logement')}
 			{createNavLink('Expériences', '/experience')}
 			{createNavLink('Expériences en ligne', '/liens')}
