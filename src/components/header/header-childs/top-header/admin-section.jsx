@@ -1,7 +1,7 @@
 import React from 'react';
 import {Box} from "@mui/material";
 
-function Admin() {
+const AdminSection = () => {
 
 
 	return (
@@ -11,4 +11,4 @@ function Admin() {
 	);
 }
 
-export default Admin;
+export default AdminSection;
