@@ -1,7 +1,7 @@
 import React from 'react';
 import Navbar from "./header-childs/top-header/nav-bar";
 import Logo from "./header-childs/top-header/logo";
-import Admin from "./header-childs/top-header/admin-section";
+import AdminSection from "./header-childs/top-header/admin-section";
 import {Box} from "@mui/material";
 
 function Header() {
@@ -12,7 +12,7 @@ function Header() {
 			{/* la barre de navigation */}
 			<Navbar />
 			{/* la barre d'admin */}
-			<Admin-section/>
+			<AdminSection/>
 		</Box>
 	);
 }
