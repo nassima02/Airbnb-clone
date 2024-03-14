@@ -12,7 +12,7 @@ function Header() {
 			{/* la barre de navigation */}
 			<Navbar />
 			{/* la barre d'admin */}
-			<Admin/>
+			<Admin-section/>
 		</Box>
 	);
 }

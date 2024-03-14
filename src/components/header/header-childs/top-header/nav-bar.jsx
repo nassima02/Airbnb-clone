@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Chip, Toolbar, Typography } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import '../../../../index.css';
+import '../../../../index.scss';
 
 function Navbar() {
 	const navigate = useNavigate();
